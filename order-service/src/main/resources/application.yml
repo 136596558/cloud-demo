@@ -12,7 +12,7 @@ spring:
     nacos:
       server-addr: localhost:8848 #nacos服务地址
 mybatis:
-  type-aliases-package: cn.itcast.user.pojo
+  type-aliases-package: cn.itcast.gateway.order.pojo
   configuration:
     map-underscore-to-camel-case: true
 logging:
